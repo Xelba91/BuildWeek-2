@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Circular";
+  src: url(../fonts/CircularStd-Book.otf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url(../fonts/CircularStd-Bold.otf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Circular";
+  height: 100%;
+  overflow: hidden;
+}
+
+.nomeArtista {
+  font-size: 570%;
+  font-weight: bolder;
+  line-height: 0.9;
+}
+
+.heroDiv {
+  background-image: url(https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 26em;
+}
+
+.play {
+  font-size: 80px;
+}
+
+.secondaParte {
+  background-image: linear-gradient(to right bottom, #323232, #272727, #1c1c1c, #111111, #000000);
+}
+
+.footerBtn {
+  background-color: #000000;
+}
+
+.footerBtn:hover {
+  background-color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.popularImg {
+  width: 60px;
+  @media screen and (min-width: 768px) {
+    width: 120px;
+  }
+}
+
+.colonnaDestra {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.overi {
+  opacity: 0.5;
+  color: black;
+}
+
+.overi:hover {
+  opacity: 0.8;
+}
+
+.titleArtist {
+  width: 50%;
+}

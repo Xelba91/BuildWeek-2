@@ -1,0 +1,174 @@
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+}
+:root {
+  .btn-dark {
+    --bs-btn-bg: none;
+    --bs-btn-border-color: none;
+  }
+}
+html {
+  background-color: black;
+}
+
+.box1 {
+  text-align: left;
+  display: flex;
+  background-color: #121212;
+  border-radius: 8px;
+  /*  width: 100%; */
+  justify-content: center;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+#box2 {
+  background-color: #121212;
+}
+
+.sidebar {
+  border-radius: 8px;
+  /* margin-top: 10px; */
+}
+
+.container-fluid {
+  margin-top: 12px;
+  background-color: black;
+  max-height: var(--container-fluid-max-height);
+}
+
+#sezdex {
+  border-radius: 8px;
+
+  background: linear-gradient(180deg, rgb(90, 89, 3) 0%, rgb(90, 89, 3) 0%, rgb(18, 18, 18) 36%);
+}
+
+.rett {
+  display: flex;
+
+  background-color: rgba(65, 65, 65, 0.2784313725);
+  align-items: center;
+}
+
+.scrollspy-example {
+  overflow-y: auto;
+  /* padding: 10px; */
+  /* height: 61vh; */
+}
+
+.asx {
+  margin-right: 6px;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(13, 13, 13);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+
+.campanella {
+  background-color: rgb(13, 13, 13);
+  border-radius: 50%;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#campanella1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo1 {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: white;
+}
+
+.sez1 {
+  display: flex;
+  margin-right: 8px;
+  gap: 8px;
+  align-items: center;
+}
+
+.navbarsx {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  z-index: 1;
+}
+
+#scroll2 {
+  /* height: 90vh; */
+  background: linear-gradient(180deg, rgb(90, 89, 3) 0%, rgb(90, 89, 3) 0%, rgb(18, 18, 18) 36%);
+}
+
+.imgc {
+  margin-inline: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+  font-size: 30px !important;
+}
+
+#container1 {
+  padding-top: 30px;
+}
+
+.box {
+  display: flex;
+}
+
+img {
+  object-fit: cover;
+}
+
+.box7 {
+  color: white;
+}
+/* .prova {
+  width: auto;
+  height: 150px;
+  object-fit: cover;
+}
+.prova2 {
+  height: 110px;
+}
+ */
+.card:hover {
+  transition: width 0.2s ease-in-out;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
